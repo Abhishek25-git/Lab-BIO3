@@ -1,0 +1,41 @@
+body,h1,h2,p{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family:Arial,sans-serif;
+    line-height: 1.6;
+
+}
+header{
+    background-color: green;
+    padding:1rem;
+    color:yellow;
+    text-align:center;
+
+}
+main{
+    padding:2rem;
+}
+.profile{
+    display:flex;
+    align-items:center;
+}
+.bio{
+    text-align: center;
+    padding:1rem 0;
+    background-color:beige;
+}
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: green;
+    color: antiquewhite;
+}
+
+/*Media Queries*/
+@media screen and (max-width:100px){
+    profile{
+    flex-direction: column;
+}}
